@@ -1,0 +1,41 @@
+{
+  "name": "notes",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "electron:build": "vue-cli-service electron:build",
+    "electron:serve": "vue-cli-service electron:serve",
+    "postinstall": "electron-builder install-app-deps",
+    "postuninstall": "electron-builder install-app-deps"
+  },
+  "main": "background.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-regular-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/vue-fontawesome": "^0.1.10",
+    "core-js": "^3.6.5",
+    "dayjs": "^1.8.32",
+    "element-ui": "^2.13.2",
+    "mavon-editor": "^2.9.0",
+    "nedb-promises": "^4.0.4",
+    "stylus": "^0.54.8",
+    "stylus-loader": "^3.0.2",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.4.0",
+    "@vue/cli-plugin-router": "^4.4.0",
+    "@vue/cli-plugin-vuex": "^4.4.0",
+    "@vue/cli-service": "^4.4.0",
+    "electron": "^8.0.0",
+    "electron-devtools-installer": "^3.1.0",
+    "vue-cli-plugin-electron-builder": "^2.0.0-rc.4",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
